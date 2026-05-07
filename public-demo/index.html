@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>XAIPT-GUARD™ — Demo Intelligence Layer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grid-layer"></div>
+  <div class="ambient blue"></div>
+  <div class="ambient orange"></div>
+  <div class="scanline"></div>
+
+  <aside class="rail">
+    <div class="logo">X</div>
+    <button class="nav active" data-target="hero">⌁</button>
+    <button class="nav" data-target="pipeline">◇</button>
+    <button class="nav" data-target="qr">▣</button>
+    <button class="nav" data-target="audit">≋</button>
+    <button class="nav" data-target="doctrine">✦</button>
+  </aside>
+
+  <main class="page">
+    <header class="topbar">
+      <div>
+        <p class="kicker">PUBLIC RESEARCH EDITION • DEMO INTELLIGENCE LAYER</p>
+        <h1>XAIPT-GUARD™ Operational Simulation</h1>
+      </div>
+      <div class="top-metrics">
+        <span><b>Mode</b> Simulated</span>
+        <span><b>Trust</b> <i id="topTrust">92%</i></span>
+        <span class="danger"><b>State</b> <i id="topState">HOLD</i></span>
+      </div>
+    </header>
+
+    <section id="hero" class="hero">
+      <div class="hero-copy">
+        <span class="chip">AI-era execution governance</span>
+        <h2>Operational intelligence for high-risk digital actions.</h2>
+        <p>
+          This public-safe demo shows a simulated transaction pipeline, risk scoring,
+          trusted-device graph, delayed execution, QR authority visualization,
+          and audit playback — without exposing private XAIPT internals.
+        </p>
+        <div class="action-row">
+          <button id="runDemo">Run Full Simulation</button>
+          <button class="ghost" id="resetDemo">Reset Demo</button>
+        </div>
+      </div>
+
+      <div class="phone-stage">
+        <div class="phone">
+          <div class="phone-top"><span>09:41</span><b>XAIPT</b><span>●●●</span></div>
+          <div class="phone-alert">
+            <small>Execution State</small>
+            <strong id="phoneState">HOLD ACTIVATED</strong>
+            <p id="phoneMsg">Secondary authority review required before final action.</p>
+            <div class="ping"></div>
+          </div>
+          <div class="segments">
+            <span id="segHold" class="active">Hold</span>
+            <span id="segReview">Review</span>
+            <span id="segApprove">Approve</span>
+          </div>
+          <div class="mobile-list">
+            <div><i class="red"></i><span>UPI Action</span><b id="upiState">Blocked</b></div>
+            <div><i class="blue"></i><span>Authority Device</span><b id="authState">Waiting</b></div>
+            <div><i class="orange"></i><span>Audit Chain</span><b id="auditState">Recording</b></div>
+          </div>
+          <div class="dock"><i class="active"></i><i></i><i></i><i></i></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="stat"><small>Transaction</small><strong id="txnId">TXN-2047</strong><span>simulated high-risk request</span></div>
+      <div class="stat"><small>Risk Score</small><strong id="riskText">78%</strong><span id="riskReason">pressure + anomaly</span></div>
+      <div class="stat"><small>Delay Window</small><strong id="delayText">15m</strong><span>cooling simulation</span></div>
+      <div class="stat"><small>Authority</small><strong id="authorityText">PENDING</strong><span>trusted device review</span></div>
+    </section>
+
+    <section id="pipeline" class="runtime-grid">
+      <div class="panel wide">
+        <div class="panel-head">
+          <h3>Simulated Transaction Pipeline</h3>
+          <span id="pipelineStatus">live public-safe simulation</span>
+        </div>
+
+        <div class="pipeline">
+          <div class="pipe-step active" id="stepRequest"><b>01</b><span>REQUEST</span><em>created</em></div>
+          <div class="pipe-line active"></div>
+          <div class="pipe-step active" id="stepRisk"><b>02</b><span>RISK SCORE</span><em>78%</em></div>
+          <div class="pipe-line hold"></div>
+          <div class="pipe-step hold" id="stepHold"><b>03</b><span>HOLD</span><em>active</em></div>
+          <div class="pipe-line muted" id="lineReview"></div>
+          <div class="pipe-step" id="stepReview"><b>04</b><span>REVIEW</span><em>pending</em></div>
+          <div class="pipe-line muted" id="lineExecute"></div>
+          <div class="pipe-step" id="stepExecute"><b>05</b><span>EXECUTE</span><em>locked</em></div>
+        </div>
+
+        <div class="console" id="console">
+          <p><span>00:00</span> High-risk execution request received.</p>
+          <p><span>00:01</span> Risk context evaluated.</p>
+          <p><span>00:02</span> HOLD state activated before finality.</p>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-head"><h3>Risk Engine</h3><span>simulated</span></div>
+        <div class="risk-meter">
+          <div><strong id="riskNumber">78</strong><small>risk score</small></div>
+        </div>
+        <ul class="risk-list" id="riskList">
+          <li>Urgency pressure detected</li>
+          <li>New payee context</li>
+          <li>Device trust drift</li>
+          <li>Secondary authority required</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="qr" class="split">
+      <div class="panel">
+        <div class="panel-head"><h3>QR Authority Visualization</h3><span>approval token demo</span></div>
+        <div class="qr-wrap">
+          <div class="qr" id="qrBox">
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+          </div>
+          <div class="qr-copy">
+            <strong id="qrTitle">Authority token generated</strong>
+            <p id="qrDesc">The simulated action remains in HOLD until the trusted authority review is completed.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-head"><h3>Trusted Device Graph</h3><span>authority topology</span></div>
+        <div class="topology">
+          <svg viewBox="0 0 420 280">
+            <path class="s1" d="M210 140 L92 58" />
+            <path class="s2" d="M210 140 L330 58" />
+            <path class="s3" d="M210 140 L96 222" />
+            <path class="s4" d="M210 140 L328 222" />
+          </svg>
+          <div class="core" id="coreNode">HOLD</div>
+          <div class="orbit o1">A1</div>
+          <div class="orbit o2">A2</div>
+          <div class="orbit o3">A3</div>
+          <div class="orbit o4">A4</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="split">
+      <div class="panel">
+        <div class="panel-head"><h3>Delayed Execution Window</h3><span>cooling simulation</span></div>
+        <div class="delay-box">
+          <div class="delay-ring"><strong id="delayMinutes">15:00</strong><span>remaining</span></div>
+          <p>Execution stays bounded while authority review and audit visibility remain active.</p>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-head"><h3>Decision Result</h3><span>demo branch</span></div>
+        <div class="decision-actions">
+          <button id="approveBtn">Approve Simulation</button>
+          <button class="deny" id="denyBtn">Deny Simulation</button>
+        </div>
+        <p class="decision-note" id="decisionNote">No final action is executed in this public demo.</p>
+      </div>
+    </section>
+
+    <section id="audit" class="panel audit">
+      <div class="panel-head"><h3>Audit Timeline Playback</h3><span>visibility-only model</span></div>
+      <div class="audit-table" id="auditTable">
+        <div class="row head"><span>Time</span><span>Event</span><span>State</span><span>Authority</span></div>
+        <div class="row"><span>09:41:02</span><span>Request created</span><span>Pending</span><span>Primary</span></div>
+        <div class="row"><span>09:41:06</span><span>Risk detected</span><span>Hold</span><span>System</span></div>
+        <div class="row"><span>09:41:12</span><span>Secondary review required</span><span>Review</span><span>Trusted Device</span></div>
+      </div>
+    </section>
+
+    <section id="doctrine" class="doctrine">
+      <div><b>Public-safe abstraction</b><p>This demo shows governance surface, not internal XAIPT enforcement.</p></div>
+      <div><b>Authority before execution</b><p>High-risk actions remain bounded until human authority is preserved.</p></div>
+      <div><b>Friction before consequence</b><p>Delay can be a protection layer, not a UX weakness.</p></div>
+      <div><b>Audit-visible control</b><p>Every transition should be readable, explainable, and reviewable.</p></div>
+    </section>
+  </main>
+
+  <nav class="mobile-tabs">
+    <button class="active" data-target="hero">Home</button>
+    <button data-target="pipeline">Flow</button>
+    <button data-target="qr">QR</button>
+    <button data-target="audit">Audit</button>
+  </nav>
+
+  <script src="app.js"></script>
+</body>
+</html>

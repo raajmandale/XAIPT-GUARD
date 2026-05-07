@@ -1,0 +1,14 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="360" rx="26" fill="#050B18"/>
+<defs><linearGradient id="a" x1="0" y1="0" x2="1200" y2="360"><stop stop-color="#2F7CFF"/><stop offset="1" stop-color="#32F2DC"/></linearGradient></defs>
+<text x="52" y="62" fill="#EAF3FF" font-family="Inter,Arial" font-size="32" font-weight="900">XAIPT-GUARD Public Architecture</text>
+<g transform="translate(56 125)">
+  <g><rect width="190" height="92" rx="18" fill="#0D1730" stroke="#284270"/><text x="32" y="39" fill="#fff" font-family="Inter,Arial" font-size="22" font-weight="900">INTENT</text><text x="32" y="66" fill="#9DB3D4" font-family="Inter,Arial" font-size="14">user action request</text></g>
+  <g transform="translate(230 0)"><rect width="190" height="92" rx="18" fill="#0D1730" stroke="#284270"/><text x="38" y="39" fill="#fff" font-family="Inter,Arial" font-size="22" font-weight="900">HOLD</text><text x="32" y="66" fill="#9DB3D4" font-family="Inter,Arial" font-size="14">pause consequence</text></g>
+  <g transform="translate(460 0)"><rect width="190" height="92" rx="18" fill="#0D1730" stroke="#284270"/><text x="26" y="39" fill="#fff" font-family="Inter,Arial" font-size="22" font-weight="900">REVIEW</text><text x="32" y="66" fill="#9DB3D4" font-family="Inter,Arial" font-size="14">human context</text></g>
+  <g transform="translate(690 0)"><rect width="190" height="92" rx="18" fill="#0D1730" stroke="#284270"/><text x="28" y="39" fill="#fff" font-family="Inter,Arial" font-size="22" font-weight="900">APPROVE</text><text x="32" y="66" fill="#9DB3D4" font-family="Inter,Arial" font-size="14">authority decision</text></g>
+  <g transform="translate(920 0)"><rect width="190" height="92" rx="18" fill="#0D1730" stroke="#284270"/><text x="24" y="39" fill="#fff" font-family="Inter,Arial" font-size="22" font-weight="900">EXECUTE</text><text x="32" y="66" fill="#9DB3D4" font-family="Inter,Arial" font-size="14">bounded action</text></g>
+</g>
+<path d="M260 171H284M490 171H514M720 171H744M950 171H974" stroke="url(#a)" stroke-width="4" stroke-linecap="round"/>
+<text x="56" y="292" fill="#9DB3D4" font-family="Inter,Arial" font-size="18">Public-safe abstraction: governance surface + simulated decision flow + audit visibility. Private XAIPT internals excluded.</text>
+</svg>

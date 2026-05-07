@@ -1,0 +1,14 @@
+[
+  {
+    "id": "XG-REQ-001",
+    "state": "HOLD",
+    "risk": 84,
+    "authority": "secondary-review"
+  },
+  {
+    "id": "XG-REQ-002",
+    "state": "REVIEW",
+    "risk": 62,
+    "authority": "trusted-device"
+  }
+]

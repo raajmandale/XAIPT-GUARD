@@ -1,0 +1,11 @@
+name: static-check
+on:
+  push:
+  pull_request:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Python simulator check
+        run: python simulator/decision_gate.py && python simulator/audit_log.py

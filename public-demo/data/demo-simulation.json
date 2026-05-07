@@ -1,0 +1,13 @@
+{
+  "transaction": "TXN-2047",
+  "pipeline": [
+    "REQUEST",
+    "RISK_SCORE",
+    "HOLD",
+    "QR_REVIEW",
+    "DELAY_WINDOW",
+    "APPROVE_OR_DENY"
+  ],
+  "risk_score": 78,
+  "public_boundary": "simulation_only"
+}

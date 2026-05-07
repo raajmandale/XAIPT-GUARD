@@ -1,0 +1,76 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#122543"/>
+      <stop offset="55%" stop-color="#050816"/>
+      <stop offset="100%" stop-color="#030611"/>
+    </radialGradient>
+    <linearGradient id="blueOrange" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#49A8FF"/>
+      <stop offset="100%" stop-color="#FF7A18"/>
+    </linearGradient>
+    <linearGradient id="holdGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF4D5F"/>
+      <stop offset="100%" stop-color="#FF7A18"/>
+    </linearGradient>
+    <filter id="glowBlue" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.286  0 0 0 0 0.659  0 0 0 0 1  0 0 0 .75 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowRed" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 1  0 0 0 0 .30  0 0 0 0 .37  0 0 0 .75 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="rgba(255,255,255,0.045)" stroke-width="1"/>
+    </pattern>
+    <style>
+      .title { font: 800 48px Inter, Segoe UI, Arial; fill: #F6F8FF; letter-spacing: -1px; }
+      .subtitle { font: 600 18px Inter, Segoe UI, Arial; fill: #9FB0D0; }
+      .label { font: 800 20px Inter, Segoe UI, Arial; fill: #F6F8FF; }
+      .small { font: 600 14px Inter, Segoe UI, Arial; fill: #9FB0D0; }
+      .micro { font: 800 11px Inter, Segoe UI, Arial; fill: #32DCFF; letter-spacing: 4px; }
+      .node { fill: rgba(255,255,255,.045); stroke: rgba(255,255,255,.12); stroke-width: 1.2; }
+      .line { stroke: #49A8FF; stroke-width: 4; stroke-linecap: round; stroke-dasharray: 14 12; animation: dash 2.8s linear infinite; }
+      .line-red { stroke: #FF4D5F; }
+      .line-green { stroke: #32F0AF; }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; transform-origin: center; }
+      .float { animation: float 4.5s ease-in-out infinite; }
+      .breathe { animation: breathe 3s ease-in-out infinite; transform-origin: center; }
+      .scan { animation: scan 5s linear infinite; }
+      @keyframes dash { to { stroke-dashoffset: -52; } }
+      @keyframes pulse { 0%,100% { opacity:.55; transform:scale(1); } 50% { opacity:1; transform:scale(1.055); } }
+      @keyframes breathe { 0%,100% { filter: brightness(1); transform: scale(1); } 50% { filter: brightness(1.15); transform: scale(1.025); } }
+      @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+      @keyframes scan { 0% { transform: translateX(-420px); opacity:0; } 20% { opacity:.8; } 100% { transform: translateX(1720px); opacity:0; } }
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bgGlow)"/>
+  <rect width="1600" height="900" fill="url(#grid)" opacity=".85"/>
+  <circle cx="1260" cy="120" r="280" fill="#49A8FF" opacity=".10"/>
+  <circle cx="220" cy="780" r="260" fill="#FF7A18" opacity=".10"/>
+  <rect x="0" y="0" width="420" height="900" fill="url(#blueOrange)" opacity=".04"/>
+  <rect class="scan" x="-420" y="0" width="360" height="900" fill="url(#blueOrange)" opacity=".08"/>
+  <text x="80" y="88" class="micro">XAIPT-GUARD™ PUBLIC RESEARCH EDITION</text>
+  <text x="80" y="144" class="title">Runtime Governance Flow</text>
+  <text x="80" y="182" class="subtitle">REQUEST → RISK → HOLD → REVIEW → EXECUTE</text>
+  
+  <g transform="translate(110,320)">
+    <rect x="0" y="-70" width="1380" height="310" rx="42" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.10)"/>
+    <g transform="translate(70,55)">
+      <g class="float"><rect class="node" x="0" y="0" width="170" height="150" rx="30"/><text x="85" y="62" text-anchor="middle" class="label">REQUEST</text><text x="85" y="94" text-anchor="middle" class="small">user intent</text></g>
+      <path class="line" d="M190 75 H305"/>
+      <g class="float" style="animation-delay:.2s"><rect class="node" x="325" y="0" width="170" height="150" rx="30"/><text x="410" y="62" text-anchor="middle" class="label">RISK</text><text x="410" y="94" text-anchor="middle" class="small">score + context</text></g>
+      <path class="line line-red" d="M515 75 H630"/>
+      <g class="breathe"><rect x="650" y="-10" width="190" height="170" rx="34" fill="url(#holdGrad)" filter="url(#glowRed)"/><text x="745" y="62" text-anchor="middle" class="label">HOLD</text><text x="745" y="96" text-anchor="middle" class="small" fill="#ffe7ea">execution paused</text></g>
+      <path class="line" d="M860 75 H975"/>
+      <g class="float" style="animation-delay:.4s"><rect class="node" x="995" y="0" width="170" height="150" rx="30"/><text x="1080" y="62" text-anchor="middle" class="label">REVIEW</text><text x="1080" y="94" text-anchor="middle" class="small">authority check</text></g>
+      <path class="line line-green" d="M1185 75 H1270"/>
+    </g>
+  </g>
+  <text x="180" y="690" class="label">Public signature flow: HOLD → REVIEW → APPROVE → EXECUTE</text>
+  <text x="180" y="725" class="small">A public-safe governance visualization for irreversible digital actions.</text>
+
+</svg>

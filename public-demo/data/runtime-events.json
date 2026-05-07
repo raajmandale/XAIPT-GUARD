@@ -1,0 +1,22 @@
+[
+  {
+    "time": "09:41:02",
+    "event": "Request created",
+    "state": "Pending"
+  },
+  {
+    "time": "09:41:06",
+    "event": "Risk detected",
+    "state": "Hold"
+  },
+  {
+    "time": "09:41:12",
+    "event": "Secondary review required",
+    "state": "Review"
+  },
+  {
+    "time": "09:41:30",
+    "event": "Decision recorded",
+    "state": "Approved / Denied"
+  }
+]
