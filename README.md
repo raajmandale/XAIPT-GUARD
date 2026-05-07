@@ -1,374 +1,263 @@
-<div align="center">
+<div align="center"># XAIPT-GUARD™### Public Research Edition# Human Authority Before Irreversible ExecutionAI-Era Execution Governance • Runtime Visibility • HOLD-Before-Finality<img src="./public-demo/assets/svg/xaipt-guard-hero.svg" width="100%" /></div>---# ⚡ OverviewXAIPT-GUARD™ is a founder-led public research artifact exploring:- irreversible digital execution- authority-aware governance- HOLD-before-finality systems- bounded consequence runtime models- AI-era operational trust surfacesThe project demonstrates how high-risk digital actions may move through a governance lifecycle before execution finality is reached.---# 🧠 Runtime Governance Lifecycle```textREQUEST   ↓RISK   ↓HOLD   ↓REVIEW   ↓APPROVE / DENY   ↓EXECUTION
+This runtime philosophy explores a future where:
 
-<img src="./public-demo/assets/svg/xaipt-guard-hero.svg" width="100%" />
 
-# XAIPT-GUARD™
+delay may become protection
 
-### Public Research Edition
 
-## Human Authority Before Irreversible Execution
+visibility may become security
 
-**AI-Era Execution Governance • Runtime Visibility • HOLD-Before-Finality**
 
-<br>
+governance may become runtime-native
 
-[![Runtime Surface](./public-demo/assets/screenshots/runtime-surface-overview.png)](./public-demo/index.html)
 
-<br>
+HOLD may become a trust primitive
 
-### A public-safe runtime governance research artifact for irreversible digital actions.
 
-</div>
+irreversible systems require bounded execution
 
----
 
-# ⚡ Core Runtime Thesis
 
-> Modern systems execute fast.  
-> XAIPT-GUARD explores whether high-risk digital actions should first pass through:
->
-> **HOLD → REVIEW → APPROVE**
->
-> before irreversible execution finality is reached.
+🎬 Runtime Demonstration
+Runtime Intelligence Surface
 
----
 
-# 🔩 Runtime Governance Flow
+HOLD Activation Runtime
 
-```text
-REQUEST
-   ↓
-RISK
-   ↓
-HOLD
-   ↓
-REVIEW
-   ↓
-APPROVE / DENY
-   ↓
-EXECUTION
-```
 
----
+Authority Token + Trust Graph
 
-# 🧠 What is XAIPT-GUARD?
 
-XAIPT-GUARD™ is a founder-led public research artifact exploring:
+Audit Timeline Playback
 
-- irreversible digital execution
-- authority-aware governance
-- HOLD-before-finality systems
-- bounded consequence runtime models
-- AI-era operational trust surfaces
-- delayed execution governance
-- runtime visibility architecture
 
----
+🌌 Cinematic Runtime Experience
+Interactive Runtime Teaser
+Open locally:
+public-demo/cinematic/runtime-experience-engine.html
+This cinematic layer demonstrates:
 
-# 🌌 Core Philosophy
 
-Modern systems optimize for:
+operational runtime visualization
 
-- instant execution
-- automation-first behavior
-- zero-friction finality
-- irreversible completion
 
-XAIPT-GUARD explores a different question:
+governance-driven execution flow
 
-> “What if delay, visibility, review, and human authority become protection layers?”
 
----
+authority orchestration
 
-# 🛰️ Runtime Surface
 
-The runtime surface demonstrates:
+HOLD activation simulation
 
-- HOLD activation
-- delayed execution simulation
-- authority review
-- trust topology
-- audit visibility
-- runtime telemetry
-- operational cooling windows
-- human review simulation
-- authority-bound execution paths
 
-while remaining intentionally:
+AI-era execution telemetry
 
-- public-safe
-- visibility-only
-- non-transactional
-- research-oriented
 
----
+runtime-native governance concepts
 
-# 📷 Runtime Screenshots
 
-## Operational Runtime Surface
 
-<img src="./public-demo/assets/screenshots/runtime-surface-overview.png" width="100%" />
+🛰️ Architecture Diagrams
+Runtime Flow Architecture
+<img src="./diagrams/01-xaipt-runtime-governance-flow.svg" width="100%" />
 
----
+Authority Topology
+<img src="./diagrams/02-authority-topology.svg" width="100%" />
 
-## Runtime Governance Flow
+Public / Private Boundary Model
+<img src="./diagrams/03-public-private-boundary.svg" width="100%" />
 
-<img src="./public-demo/assets/screenshots/runtime-governance-flow.png" width="100%" />
+HOLD → REVIEW → APPROVE Lifecycle
+<img src="./diagrams/04-hold-review-approve.svg" width="100%" />
 
----
+Runtime Telemetry Surface
+<img src="./diagrams/05-trust-runtime-telemetry.svg" width="100%" />
 
-## Authority Token + Trust Graph
+🏛️ RBI / Governance Direction
+XAIPT-GUARD™ is NOT a financial platform.
+This repository exists as a public-safe governance research artifact exploring:
 
-<img src="./public-demo/assets/screenshots/authority-token-trust-graph.png" width="100%" />
 
----
+human approval before irreversible execution
 
-## Audit Timeline Playback
 
-<img src="./public-demo/assets/screenshots/audit-timeline-playback.png" width="100%" />
+operational runtime visibility
 
----
 
-# 🎥 Runtime Videos
+authority-aware execution governance
 
-GitHub does not reliably autoplay local MP4 previews inside README files, so each runtime video is provided through visual preview links.
 
----
+audit-visible trust surfaces
 
-## 🎬 Runtime Intelligence
 
-[![Runtime Intelligence](./public-demo/assets/screenshots/runtime-surface-overview.png)](./public-demo/assets/videos/xaipt-runtime-intro.mp4)
+bounded consequence runtime flows
 
----
 
-## 🚨 HOLD Activation
+The project intentionally excludes:
 
-[![HOLD Activation](./public-demo/assets/screenshots/runtime-governance-flow.png)](./public-demo/assets/videos/xaipt-hold-activation.mp4)
 
----
+real financial execution
 
-## 🧠 Authority Flow
 
-[![Authority Flow](./public-demo/assets/screenshots/authority-token-trust-graph.png)](./public-demo/assets/videos/xaipt-authority-flow.mp4)
+production transaction systems
 
----
 
-## 📜 Audit Playback
+banking integrations
 
-[![Audit Playback](./public-demo/assets/screenshots/audit-timeline-playback.png)](./public-demo/assets/videos/xaipt-audit-playback.mp4)
 
----
+anti-hacker internals
 
-# 🌐 Cinematic Runtime Experience
 
-Full cinematic runtime experience:
+sovereign enforcement logic
 
-📁 `public-demo/cinematic/Runtime Experience Engine.html`
 
-Open directly in browser for immersive runtime playback.
+bypass-resistant implementation systems
 
----
 
-# 🧬 Runtime Layers
 
-| Layer | Purpose |
-|---|---|
-| Runtime Flow | Execution lifecycle visibility |
-| HOLD Engine | Delayed consequence simulation |
-| Trust Graph | Authority topology modeling |
-| Risk Engine | Behavioral anomaly visualization |
-| Audit Timeline | Visibility + replay model |
-| Mobile Authority Surface | Human approval interaction |
-| Cooling Window | Delay-before-finality simulation |
+🧬 Runtime Philosophy
+XAIPT-GUARD™ explores a future where:
 
----
+irreversible digital systems may require governance before finality.
 
-# 🏦 RBI / Digital Governance Context
+The runtime surface demonstrates concepts such as:
 
-XAIPT-GUARD explores whether future irreversible digital systems may require:
 
-- bounded delay
-- visible authority
-- HOLD states
-- trust-aware runtime layers
-- human review checkpoints
-- operational cooling windows
+execution cooling windows
 
-before irreversible finality is reached.
 
----
+trusted authority review
 
-# 🔒 Public-Safe Boundary
 
-XAIPT-GUARD intentionally exposes only:
+delayed consequence layers
 
-- governance simulation
-- runtime visualization
-- authority topology
-- operational UX
-- audit visibility
-- execution flow concepts
 
-while intentionally excluding:
+operational runtime visibility
 
-- anti-bypass systems
-- enforcement internals
-- sovereign protection layers
-- distributed vault logic
-- private XAIPT mechanisms
-- XLP / UNI-OS internals
-- real transaction capability
-- financial integrations
-- production enforcement systems
 
----
+AI-era trust orchestration
 
-# 🎨 Runtime Design Language
 
-The runtime surface intentionally focuses on:
+audit-native execution pipelines
 
-- operational calmness
-- cinematic runtime feel
-- AI-era telemetry
-- premium governance UI
-- mobile-inspired interaction
-- bounded execution aesthetics
 
-while avoiding:
 
-- fake hacker visuals
-- malware aesthetics
-- noisy cyberpunk overload
+⚙️ Project Structure
+xaipt-guard/│├── README.md│├── public-demo/│   ├── index.html│   ├── app.js│   ├── styles.css│   ││   ├── cinematic/│   │   └── runtime-experience-engine.html│   ││   ├── assets/│   │   ├── screenshots/│   │   ├── videos/│   │   └── svg/│   ││   ├── data/│   └── modules/│├── diagrams/│├── docs/│└── requirements.txt
 
----
-
-# 🧭 Repository Structure
-
-```text
-xaipt-guard/
-│
-├── public-demo/
-│   ├── index.html
-│   ├── app.js
-│   ├── styles.css
-│   │
-│   ├── cinematic/
-│   │   └── Runtime Experience Engine.html
-│   │
-│   ├── assets/
-│   │   ├── screenshots/
-│   │   ├── videos/
-│   │   └── svg/
-│   │
-│   ├── data/
-│   └── modules/
-│
-├── diagrams/
-├── docs/
-└── README.md
-```
-
----
-
-# ⚙️ Local Runtime Demo
-
-## Open Directly
-
-```text
-public-demo/index.html
-```
-
----
-
-## VS Code Live Server
-
-```bash
-Right Click → Open with Live Server
-```
-
----
-
-## Python Runtime Server
-
-```bash
-cd public-demo
-python -m http.server 8080
-```
-
+🚀 Local Runtime Demo
+Start Demo
+cd public-demopython -m http.server 8080
 Open:
-
-```text
 http://localhost:8080
+
+🎥 Runtime Media
+Videos
+public-demo/assets/videos/
+Includes:
+
+
+xaipt-runtime-intro.mp4
+
+
+xaipt-hold-activation.mp4
+
+
+xaipt-authority-flow.mp4
+
+
+xaipt-audit-playback.mp4
+
+
+
+SVG Assets
+public-demo/assets/svg/
+Includes:
+
+
+xaipt-guard-hero.svg
+
+
+flow-architecture.svg
+
+
+
+Diagram Pack
+diagrams/
+Includes:
+
+
+runtime governance flow
+
+
+authority topology
+
+
+HOLD lifecycle
+
+
+trust telemetry
+
+
+public/private runtime boundary
+
+
+
+🔒 Important Boundary
+XAIPT-GUARD™ Public Research Edition intentionally avoids exposing:
+
+
+private XAIPT internals
+
+
+execution enforcement systems
+
+
+anti-tamper layers
+
+
+sovereign runtime authority logic
+
+
+financial execution capability
+
+
+operational security internals
+
+
+This repository exists only as:
+
+a cinematic governance research surface.
+
+
+👨‍💻 Founder
+Raaj Mandale
+Founder & Systems Architect
+AI Infrastructure • Runtime Systems • Governance Surfaces • Survivability Thinking
+
+🌍 Final Direction
+XAIPT-GUARD™ explores a future where:
+
+
+governance becomes runtime-native
+
+
+HOLD becomes a trust primitive
+
+
+visibility becomes operational security
+
+
+delay becomes bounded protection
+
+
+irreversible execution requires human authority
+
+
+
+<div align="center">
+XAIPT-GUARD™
+Public Research Edition
+Human Authority Before Irreversible Execution
+</div>
 ```
-
----
-
-# 🧪 Intended Use
-
-XAIPT-GUARD is intended for:
-
-- runtime governance research
-- AI-era execution studies
-- authority-aware UX exploration
-- operational trust simulations
-- runtime telemetry concepts
-- bounded consequence systems
-- public-safe governance demonstrations
-
----
-
-# ⚠️ Important Boundary
-
-XAIPT-GUARD is:
-
-- NOT a banking product
-- NOT a payment processor
-- NOT anti-fraud software
-- NOT malware protection
-- NOT a production security tool
-- NOT connected to UPI infrastructure
-
-This repository exists strictly as a:
-
-## public-safe governance research artifact.
-
----
-
-# 🚀 Founder Direction
-
-XAIPT-GUARD reflects broader exploration into:
-
-- execution governance
-- runtime intelligence
-- bounded consequence systems
-- AI-era trust architecture
-- irreversible digital infrastructure
-- human-centered operational control
-
----
-
-# 🌍 Final Direction
-
-XAIPT-GUARD explores a future where:
-
-- delay may become protection
-- visibility may become security
-- governance may become runtime-native
-- HOLD may become a trust primitive
-- irreversible systems require bounded execution
-
----
-
-# 👤 Author
-
-Raaj Mandale  
-Founder — Eranest Technoware Pvt Ltd
-
-🔗 GitHub  
-https://github.com/raajmandale
-
----
-
-# 📄 License
-
-MIT
