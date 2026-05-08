@@ -52,40 +52,37 @@ HOLD may become a trust primitive
 irreversible systems require bounded execution
 🎬 Runtime Demonstration
 Runtime Intelligence Surface
-<a href="./public-demo/assets/videos/xaipt-runtime-intro.mp4"> <img src="./public-demo/assets/screenshots/mobile-authority-surface.png" width="100%" /> </a>
+
+▶ Open Runtime Intro Video
+
+<img src="./public-demo/assets/screenshots/mobile-authority-surface.png" width="100%" />
 HOLD Activation Runtime
-<a href="./public-demo/assets/videos/xaipt-hold-activation.mp4"> <img src="./public-demo/assets/screenshots/runtime-governance-flow.png" width="100%" /> </a>
+
+▶ Open HOLD Activation Video
+
+<img src="./public-demo/assets/screenshots/runtime-governance-flow.png" width="100%" />
 Authority Token + Trust Graph
-<a href="./public-demo/assets/videos/xaipt-authority-flow.mp4"> <img src="./public-demo/assets/screenshots/runtime-surface-overview.png" width="100%" /> </a>
+
+▶ Open Authority Flow Video
+
+<img src="./public-demo/assets/screenshots/runtime-surface-overview.png" width="100%" />
 Audit Timeline Playback
-<a href="./public-demo/assets/videos/xaipt-audit-playback.mp4"> <img src="./public-demo/assets/screenshots/audit-visibility-runtime.png" width="100%" /> </a>
-🌌 Cinematic Runtime Experience
-Interactive Runtime Teaser
 
-Open locally:
+▶ Open Audit Playback Video
 
-cd public-demo
-python -m http.server 8080
-
-Open:
-
-http://localhost:8080
-
-Then open:
-
-public-demo/cinematic/runtime-experience-engine.html
+<img src="./public-demo/assets/screenshots/audit-visibility-runtime.png" width="100%" />
 🛰️ Architecture Diagrams
-Runtime Flow Architecture
+Runtime Governance Flow
 <img src="./diagrams/01-xaipt-runtime-governance-flow.svg" width="100%" />
 Authority Topology
 <img src="./diagrams/02-authority-topology.svg" width="100%" />
-Public / Private Boundary Model
+Public / Private Runtime Boundary
 <img src="./diagrams/03-public-private-boundary.svg" width="100%" />
-HOLD → REVIEW → APPROVE Lifecycle
+HOLD → REVIEW → APPROVE
 <img src="./diagrams/04-hold-review-approve.svg" width="100%" />
-Runtime Telemetry Surface
+Trust Runtime Telemetry
 <img src="./diagrams/05-trust-runtime-telemetry.svg" width="100%" />
-🏛️ RBI / Governance Direction
+🏛️ Governance Direction
 
 XAIPT-GUARD™ is NOT a financial platform.
 
@@ -153,33 +150,6 @@ python -m http.server 8080
 Open:
 
 http://localhost:8080
-🎥 Runtime Media
-Videos
-public-demo/assets/videos/
-
-Includes:
-
-xaipt-runtime-intro.mp4
-xaipt-hold-activation.mp4
-xaipt-authority-flow.mp4
-xaipt-audit-playback.mp4
-SVG Assets
-public-demo/assets/svg/
-
-Includes:
-
-xaipt-guard-hero.svg
-flow-architecture.svg
-Diagram Pack
-diagrams/
-
-Includes:
-
-runtime governance flow
-authority topology
-HOLD lifecycle
-trust telemetry
-public/private runtime boundary
 🔒 Important Boundary
 
 XAIPT-GUARD™ Public Research Edition intentionally avoids exposing:
