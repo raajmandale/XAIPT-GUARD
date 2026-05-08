@@ -24,7 +24,7 @@ XAIPT-GUARD™ explores:
 
 [![Open Runtime Demo](https://img.shields.io/badge/TRY_IN_BROWSER-INTERACTIVE_RUNTIME-2563eb?style=for-the-badge)](./public-demo/index.html)
 
-[![Open Cinematic Experience](https://img.shields.io/badge/OPEN-CINEMATIC_RUNTIME_ENGINE-f97316?style=for-the-badge)](./public-demo/cinematic/Runtime%20Experience%20Engine.html)
+[![Open Cinematic Experience](https://raajmandale.github.io/XAIPT-GUARD/public-demo/cinematic/runtime-experience-engine.html)](./public-demo/cinematic/Runtime%20Experience%20Engine.html)
 
 ---
 
