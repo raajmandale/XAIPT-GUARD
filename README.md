@@ -30,9 +30,10 @@ The project demonstrates how high-risk digital actions may move through a govern
 
 ---
 
-# 🧠 Runtime Governance Lifecycle
+### 🧠 Runtime Governance Lifecycle
 
-```text
+---
+
 REQUEST
    ↓
 RISK
@@ -52,16 +53,34 @@ visibility may become security
 governance may become runtime-native
 HOLD may become a trust primitive
 irreversible systems require bounded execution
-🎥 Runtime Demonstration
+---
+
+### 🎥 Runtime Demonstration
+
 Runtime Intelligence Surface
-<a href="./public-demo/assets/videos/xaipt-runtime-intro.mp4"> <img src="./public-demo/assets/screenshots/runtime-surface-overview.png" width="100%" /> </a> <p align="center"> Open Runtime Intro Video </p>
-HOLD Activation Runtime
-<a href="./public-demo/assets/videos/xaipt-hold-activation.mp4"> <img src="./public-demo/assets/screenshots/runtime-governance-flow.png" width="100%" /> </a> <p align="center"> Open HOLD Activation Video </p>
-Authority Runtime Flow
-<a href="./public-demo/assets/videos/xaipt-authority-flow.mp4"> <img src="./public-demo/assets/screenshots/mobile-authority-surface.png" width="100%" /> </a> <p align="center"> Open Authority Runtime Video </p>
-Audit Runtime Playback
-<a href="./public-demo/assets/videos/xaipt-audit-playback.mp4"> <img src="./public-demo/assets/screenshots/audit-visibility-runtime.png" width="100%" /> </a> <p align="center"> Open Audit Playback Video </p>
-🌌 Cinematic Runtime Experience
+<a href="./public-demo/assets/videos/xaipt-runtime-intro.mp4"> 
+<img src="./public-demo/assets/screenshots/runtime-surface-overview.png" width="100%" /> 
+</a> <p align="center"> Open Runtime Intro Video </p>
+
+## HOLD Activation Runtime
+
+<a href="./public-demo/assets/videos/xaipt-hold-activation.mp4"> 
+<img src="./public-demo/assets/screenshots/runtime-governance-flow.png" width="100%" /> 
+</a> <p align="center"> Open HOLD Activation Video </p>
+
+## Authority Runtime Flow
+<a href="./public-demo/assets/videos/xaipt-authority-flow.mp4"> 
+<img src="./public-demo/assets/screenshots/mobile-authority-surface.png" width="100%" /> 
+</a> <p align="center"> Open Authority Runtime Video </p>
+
+## Audit Runtime Playback
+<a href="./public-demo/assets/videos/xaipt-audit-playback.mp4"> 
+<img src="./public-demo/assets/screenshots/audit-visibility-runtime.png" width="100%" /> 
+</a> <p align="center"> Open Audit Playback Video </p>
+
+---
+
+### 🌌 Cinematic Runtime Experience
 
 Open:
 
@@ -75,8 +94,12 @@ runtime telemetry
 governance visualization
 AI-era execution intelligence
 bounded consequence modeling
-🛡️ What XAIPT-GUARD Demonstrates
-Runtime Governance
+---
+
+### 🛡️ What XAIPT-GUARD Demonstrates
+---
+
+## Runtime Governance
 
 Visual runtime surfaces showing:
 
@@ -89,7 +112,7 @@ audit playback visibility
 operational telemetry
 Human-Centered Authority
 
-XAIPT-GUARD explores the philosophy:
+## XAIPT-GUARD explores the philosophy:
 
 Human authority before irreversible execution.
 
@@ -99,13 +122,14 @@ Instant irreversible execution by default.
 
 Public-Safe Research Surface
 
-XAIPT-GUARD intentionally exposes only:
+## XAIPT-GUARD intentionally exposes only:
 
 governance simulation
 runtime visibility
 authority topology
 audit visualization
 execution-flow concepts
+---
 
 while intentionally excluding:
 
@@ -115,12 +139,16 @@ distributed vault internals
 production transaction logic
 private XAIPT mechanisms
 XLP / UNI-OS internals
-🎨 Runtime Visual Architecture
+---
+
+### 🎨 Runtime Visual Architecture
+
 XAIPT Runtime Hero Surface
 <img src="./public-demo/assets/svg/xaipt-guard-hero.svg" width="100%" />
 Runtime Governance Architecture
 <img src="./public-demo/assets/svg/flow-architecture.svg" width="100%" />
-🧩 Advanced Diagram Pack
+
+### 🧩 Advanced Diagram Pack
 
 Located inside:
 
@@ -133,7 +161,9 @@ authority topology
 public/private runtime boundary
 HOLD → REVIEW → APPROVE orchestration
 trust-runtime telemetry visualization
-Runtime Governance Flow
+---
+
+### Runtime Governance Flow
 <img src="./diagrams/01-xaipt-runtime-governance-flow.svg" width="100%" />
 Authority Topology
 <img src="./diagrams/02-authority-topology.svg" width="100%" />
@@ -143,7 +173,12 @@ HOLD → REVIEW → APPROVE
 <img src="./diagrams/04-hold-review-approve.svg" width="100%" />
 Trust Runtime Telemetry
 <img src="./diagrams/05-trust-runtime-telemetry.svg" width="100%" />
-🚀 Quick Start
+
+---
+
+### 🚀 Quick Start
+---
+
 Option 1 — Open Directly
 
 Open:
@@ -197,9 +232,12 @@ authority graph
 HOLD isolation
 bounded execution topology
 runtime trust visibility
-🧭 RBI / Governance Context
 
-XAIPT-GUARD is NOT:
+---
+
+### 🧭 RBI / Governance Context
+
+## XAIPT-GUARD is NOT:
 
 a banking system
 a UPI processor
@@ -211,7 +249,7 @@ This repository exists as a:
 
 Public Research Edition exploring governance concepts around irreversible digital actions.
 
-🌐 Why This Matters
+### 🌐 Why This Matters
 
 Digital ecosystems increasingly face:
 
@@ -231,7 +269,9 @@ execution cooling layers
 
 may become future governance primitives.
 
-⚙️ Visual Runtime Direction
+---
+
+### ⚙️ Visual Runtime Direction
 
 The runtime surface intentionally aims for:
 
@@ -251,7 +291,7 @@ The goal is:
 
 execution clarity instead of execution chaos.
 
-🧬 Runtime Design Language
+### 🧬 Runtime Design Language
 
 XAIPT-GUARD intentionally combines:
 
@@ -263,7 +303,7 @@ human-centered execution flows
 
 into a single public-safe runtime surface.
 
-🛰️ Research Positioning
+### 🛰️ Research Positioning
 
 XAIPT-GUARD should be viewed as:
 
@@ -278,7 +318,8 @@ runtime systems
 governance infrastructure
 execution intelligence
 AI-era trust architecture
-🔒 Important Boundary
+
+### 🔒 Important Boundary
 
 XAIPT-GUARD intentionally excludes:
 
@@ -293,7 +334,9 @@ This repository exists as a:
 
 public-safe governance research artifact.
 
-🌌 Final Direction
+---
+
+### 🌌 Final Direction
 
 XAIPT-GUARD explores a future where:
 
@@ -303,7 +346,8 @@ visibility becomes operational security
 delay becomes bounded protection
 irreversible execution requires human authority
 <div align="center">
-XAIPT-GUARD™
+
+## XAIPT-GUARD™
 
 Public Research Edition
 
