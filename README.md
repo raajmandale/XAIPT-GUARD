@@ -35,6 +35,8 @@ XAIPT-GUARD™ explores:
 </div>
 
 ---
+### XPADI - Releases
+XPADI ProofCheck™ v0.3.0 — Recovery Intelligence & Survivability Proof
 
 # ⚡ Overview
 
