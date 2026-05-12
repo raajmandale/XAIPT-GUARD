@@ -20,22 +20,17 @@ AI-Era Execution Governance • Runtime Visibility • HOLD-Before-Finality
 
 ## 🌐 XAIPT Ecosystem
 
-XAIPT-GUARD™ exists as the public operational simulation layer of the broader XAIPT™ runtime-governance ecosystem.
+XAIPT-GUARD™ is the public operational simulation layer of the broader **XAIPT™ Runtime Governance Ecosystem**.
 
-| Layer | Purpose |
+| Layer | Role |
 |---|---|
-| XAIPT™ | Runtime Governance Ecosystem |
-| XAIPT-GUARD™ | Public Operational Simulation Layer |
-| Decision Gate | HOLD-before-finality research branch |
-| XAIPT Runtime Surface | Public ecosystem surface |
+| [XAIPT™ Root](https://github.com/raajmandale/XAIPT) | Main runtime-governance ecosystem |
+| [XAIPT-GUARD™](https://github.com/raajmandale/XAIPT-GUARD) | Public operational simulation layer |
+| [Decision Gate](https://github.com/raajmandale/xaipt-decision-gate) | HOLD-before-finality authority prototype |
+| [XAIPT Runtime Surface](https://xaipt.com/) | Public ecosystem surface |
 
-| Surface | Link |
-|---|---|
-| XAIPT Root | https://github.com/raajmandale/XAIPT |
-| XAIPT-GUARD | https://github.com/raajmandale/XAIPT-GUARD |
-| Decision Gate | https://github.com/raajmandale/xaipt-decision-gate |
-| Official Runtime Surface | https://xaipt.com/ |
-
+> XAIPT-GUARD is not a standalone product branch.  
+> It represents the visible public runtime layer of the XAIPT ecosystem.
 ---
 
 ## ⚡ Overview
