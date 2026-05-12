@@ -1,23 +1,23 @@
 <div align="center">
 
-# XAIPT-GUARD™
-
+### XAIPT-GUARD™
 ### Public Research Edition
-
 ## Human Authority Before Irreversible Execution
-
 ### AI-Era Execution Governance • Runtime Visibility • HOLD-Before-Finality
-
 ---
-
 <img src="./public-demo/assets/svg/xaipt-guard-hero.svg" width="100%" />
 
 ---
-
+### 🌐 XAIPT EcosystemXAIPT-GUARD™ 
+exists as part of the broader XAIPT runtime-governance ecosystem.
+| Layer | Purpose ||---|---|| XAIPT™ | Runtime Governance Ecosystem || XAIPT-GUARD™ | Public Operational Simulation Layer || Decision Gate | HOLD-before-finality research branch || XAIPT Runtime Surface | Public ecosystem surface |
+---
+### 🔗 Ecosystem Links### XAIPT™ Root Ecosystemhttps://github.com/raajmandale/XAIPT
+### XAIPT-GUARD
+™ Public Runtime Researchhttps://github.com/raajmandale/XAIPT-GUARD### XAIPT™ Decision Gatehttps://github.com/raajmandale/xaipt-decision-gate### Official Runtime Surfacehttps://xaipt.com/---
+---
 ### 🧠 Runtime Governance Research Surface
-
 XAIPT-GUARD™ explores:
-
 ### Authority-aware execution • HOLD states • Runtime visibility • Human review before irreversible actions
 
 ---
@@ -31,7 +31,6 @@ XAIPT-GUARD™ explores:
 ---
 
 ### *Delay may become protection. Visibility may become security.*
-
 </div>
 
 ---
@@ -39,7 +38,6 @@ XAIPT-GUARD™ explores:
 XPADI ProofCheck™ v0.3.0 — Recovery Intelligence & Survivability Proof
 
 # ⚡ Overview
-
 XAIPT-GUARD™ is a public-safe governance research artifact exploring:
 
 - irreversible digital execution
@@ -48,9 +46,7 @@ XAIPT-GUARD™ is a public-safe governance research artifact exploring:
 - delayed execution governance
 - AI-era trust surfaces
 - bounded consequence computing
-
 ---
-
 # 🧠 Runtime Governance Lifecycle
 
 ```text
@@ -80,27 +76,21 @@ XAIPT-GUARD explores a future where:
 - irreversible execution requires human authority
 
 ---
-
 # 🎥 Interactive Runtime Experiences
 
----
-
-### 🚀 Open Main Interactive Runtime
+###  🚀 Open Main Interactive Runtime
 
 [![Open Runtime](https://img.shields.io/badge/OPEN-INTERACTIVE_RUNTIME-2563eb?style=for-the-badge)](https://raajmandale.github.io/XAIPT-GUARD/public-demo/index.html)
 
 ---
-
 <img src="./public-demo/assets/screenshots/runtime-surface-overview.png" width="100%" />
 
 ---
-
 ### 🌌 Open Cinematic Runtime Experience
 
 [![Open Cinematic Runtime](https://img.shields.io/badge/OPEN-CINEMATIC_RUNTIME_ENGINE-f97316?style=for-the-badge)](https://raajmandale.github.io/XAIPT-GUARD/public-demo/cinematic/runtime-experience-engine.html)
 
 ---
-
 <img src="./public-demo/assets/screenshots/mobile-authority-surface.png" width="100%" />
 
 ---
@@ -128,7 +118,6 @@ https://raajmandale.github.io/XAIPT-GUARD/public-demo/assets/videos/xaipt-runtim
 https://raajmandale.github.io/XAIPT-GUARD/public-demo/assets/videos/xaipt-hold-activation.mp4
 
 ---
-
 <img src="./public-demo/assets/screenshots/runtime-governance-flow.png" width="100%" />
 
 ---
@@ -140,7 +129,6 @@ https://raajmandale.github.io/XAIPT-GUARD/public-demo/assets/videos/xaipt-hold-a
 https://raajmandale.github.io/XAIPT-GUARD/public-demo/assets/videos/xaipt-authority-flow.mp4
 
 ---
-
 <img src="./public-demo/assets/screenshots/mobile-authority-surface.png" width="100%" />
 
 ---
@@ -157,11 +145,9 @@ https://raajmandale.github.io/XAIPT-GUARD/public-demo/assets/videos/xaipt-audit-
 
 ---
 
-# 🎨 Runtime Visual Architecture
+### 🎨 Runtime Visual Architecture
 
----
-
-# 🧩 Advanced Diagram Pack
+### 🧩 Advanced Diagram Pack
 
 Located inside:
 
@@ -170,7 +156,6 @@ Located inside:
 ```
 
 ---
-
 Includes:
 
 - runtime governance flow
@@ -186,35 +171,29 @@ Includes:
 <img src="./diagrams/01-xaipt-runtime-governance-flow.svg" width="100%" />
 
 ---
-
 ### 🛰️ Authority Topology
 
 <img src="./diagrams/02-authority-topology.svg" width="100%" />
 
 ---
-
 ### 🔒 Public / Private Boundary
 
 <img src="./diagrams/03-public-private-boundary.svg" width="100%" />
 
 ---
-
 ### 🚨 HOLD → REVIEW → APPROVE
 
 <img src="./diagrams/04-hold-review-approve.svg" width="100%" />
 
 ---
-
 ### 📡 Trust Runtime Telemetry
 
 <img src="./diagrams/05-trust-runtime-telemetry.svg" width="100%" />
 
 ---
-
 # 🛡️ What XAIPT-GUARD Demonstrates
 
 ---
-
 ### 🧠 Runtime Governance
 
 Visual runtime systems showing:
@@ -229,7 +208,6 @@ Visual runtime systems showing:
 - governance orchestration
 
 ---
-
 ### 👤 Human-Centered Authority
 
 XAIPT-GUARD explores:
@@ -264,26 +242,20 @@ while intentionally excluding:
 - XLP / UNI-OS mechanisms
 
 ---
-
 # 🚀 Quick Start
 
 ---
-
 ### Option 1 — Open Directly
-
 https://raajmandale.github.io/XAIPT-GUARD/public-demo/index.html
 
 ---
-
 ### Option 2 — Local Runtime Server
 
 ```bash
 cd public-demo
 python -m http.server 8080
 ```
-
 ---
-
 Open:
 
 ```text
@@ -291,11 +263,9 @@ http://localhost:8080
 ```
 
 ---
-
-# 🎛️ Runtime Modules
+### 🎛️ Runtime Modules
 
 ---
-
 ### 🧠 Simulated Transaction Pipeline
 
 Visualizes:
@@ -308,7 +278,6 @@ Visualizes:
 - delayed consequence handling
 
 ---
-
 ### 📊 Risk Engine
 
 Demonstrates:
@@ -319,7 +288,6 @@ Demonstrates:
 - cooling-window recommendation
 
 ---
-
 ### 📜 Audit Timeline Playback
 
 Shows:
@@ -330,7 +298,6 @@ Shows:
 - governance-chain playback
 
 ---
-
 ### 🌐 Trust Topology
 
 Visual simulation of:
@@ -341,8 +308,7 @@ Visual simulation of:
 - bounded execution surfaces
 
 ---
-
-# 🧭 RBI / Governance Context
+### 🧭 RBI / Governance Context
 
 XAIPT-GUARD is NOT:
 
@@ -458,12 +424,9 @@ XAIPT-GUARD explores a future where:
 
 <div align="center">
 
-# XAIPT-GUARD™
-
+### XAIPT-GUARD™
 ### Public Research Edition
-
 ### Human Authority • Runtime Governance • HOLD Before Finality
-
 ### Founder Research Surface • AI-Era Execution Governance
 
 </div>
